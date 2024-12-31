@@ -3,7 +3,8 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Penghijauan Repository GitHub</title>
+     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
      <header>
@@ -38,8 +39,57 @@
           <p>Get in touch with us to learn more about our initiatives and how you can contribute.</p>
      </section>
 
+     <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
      <footer>
           <p>&copy; 2023 Penghijauan Repository GitHub. All rights reserved.</p>
      </footer>
+
+     <script src="script.js"></script>
 </body>
 </html>
+<script>
+     // Scroll to top functionality
+     function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+     }
+
+     // Dark mode toggle functionality
+     function toggleDarkMode() {
+          document.body.classList.toggle('dark-mode');
+     }
+
+     // Add event listener for dark mode toggle
+     document.addEventListener('DOMContentLoaded', function() {
+          const darkModeButton = document.createElement('button');
+          darkModeButton.id = 'dark-mode-toggle';
+          darkModeButton.textContent = 'Toggle Dark Mode';
+          darkModeButton.onclick = toggleDarkMode;
+          document.body.appendChild(darkModeButton);
+     });
+</script>
+
+<style>
+     /* Dark mode styles */
+     .dark-mode {
+          background-color: #121212;
+          color: #ffffff;
+     }
+
+     /* Style for the dark mode toggle button */
+     #dark-mode-toggle {
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+     }
+
+     #dark-mode-toggle:hover {
+          background-color: #0056b3;
+     }
+</style>
