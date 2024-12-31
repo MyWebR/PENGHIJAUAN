@@ -1,95 +1,334 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Penghijauan Repository GitHub</title>
-     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-     <header>
-          <h1>Penghijauan Repository GitHub</h1>
-          <nav>
-               <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-               </ul>
-          </nav>
-     </header>
-
-     <section id="home">
-          <h2>Welcome to Our Green Initiative</h2>
-          <p>Join us in making GitHub repositories greener and more sustainable.</p>
-     </section>
-
-     <section id="about">
-          <h2>About Us</h2>
-          <p>We are a community dedicated to promoting eco-friendly practices in software development.</p>
-     </section>
-
-     <section id="projects">
-          <h2>Our Projects</h2>
-          <p>Explore our projects aimed at reducing the carbon footprint of software development.</p>
-     </section>
-
-     <section id="contact">
-          <h2>Contact Us</h2>
-          <p>Get in touch with us to learn more about our initiatives and how you can contribute.</p>
-     </section>
-
-     <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
-
-     <footer>
-          <p>&copy; 2023 Penghijauan Repository GitHub. All rights reserved.</p>
-     </footer>
-
-     <script src="script.js"></script>
-</body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Instagram Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-50 font-sans">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-1/5 bg-white h-screen p-4">
+    <h1 class="text-2xl font-bold mb-6">
+     Instagram
+    </h1>
+    <nav class="space-y-4">
+     <a class="flex items-center space-x-2 text-lg font-semibold text-black" href="#">
+      <i class="fas fa-home">
+      </i>
+      <span>
+       Beranda
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-search">
+      </i>
+      <span>
+       Cari
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-compass">
+      </i>
+      <span>
+       Jelajahi
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-video">
+      </i>
+      <span>
+       Reels
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-envelope">
+      </i>
+      <span>
+       Pesan
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-heart">
+      </i>
+      <span>
+       Notifikasi
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-plus-square">
+      </i>
+      <span>
+       Buat
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <img alt="Profile picture" class="rounded-full" height="24" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="24"/>
+      <span>
+       Profil
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-comments">
+      </i>
+      <span>
+       Threads
+      </span>
+     </a>
+     <a class="flex items-center space-x-2 text-lg text-gray-700" href="#">
+      <i class="fas fa-bars">
+      </i>
+      <span>
+       Lainnya
+      </span>
+     </a>
+    </nav>
+   </div>
+   <!-- Main Content -->
+   <div class="w-3/5 p-4">
+    <!-- Stories -->
+    <div class="flex space-x-4 mb-6">
+     <div class="flex flex-col items-center">
+      <img alt="Story 1" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/zH2sxJ1qdIJaHlaJz6GvjGdTStK051Nn9kDBElnFCGWgfPAKA.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       dii.anhana
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 2" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/8qgeHkf5GGjMjUHCryoEpvYlDxELLaPFJEjtFl9EWfWk8fBQB.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       anugrah251_
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 3" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/HNNb5wsbAj4nFNgqXRfBW7DHuLOG4lIDOrAsoum5W8vDffAoA.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       raffipraset...
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 4" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/xsUPEWf1Km2FRq8T6yx685FXC1XLUcUQVmUgrTlaGn0FffAoA.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       r_spt_1
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 5" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/eZ3NlFc96HQZYSV1rvMf16pfZ7AipmRd1DtlreyDfyCsxfHAF.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       neymarjr
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 6" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/eAeWgmUCL9vpbkCIb91jjTBZZg5eHPAghYwhzJf8cj1X4fDgC.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       kpmdp_udi...
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 7" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/hWQ8stwrDspUEVdgsnjWp71QkXfOJijF8HvVQ3xX0jEAffAoA.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       windahbas...
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Story 8" class="rounded-full border-2 border-pink-500" height="60" src="https://storage.googleapis.com/a1aa/image/SadGQFAGUW7qOpPLvseU6eOJ5kgSMDdcQf5A6Tin8ymT8fBQB.jpg" width="60"/>
+      <span class="text-sm mt-1">
+       hmilkomu...
+      </span>
+     </div>
+    </div>
+    <!-- Posts -->
+    <div class="bg-white p-4 rounded-lg shadow mb-6">
+     <div class="flex items-center mb-4">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        republikindonesia
+       </span>
+       dan
+       <span class="font-semibold">
+        kemenpar.ri
+       </span>
+       <span class="text-gray-500 text-sm">
+        10 jam
+       </span>
+      </div>
+     </div>
+     <img alt="A turtle on the beach" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/43CoUjjJMEKiFtKw6v6cptg5e5ajdDeys7vDSsJbmDqDefBQB.jpg" width="600"/>
+     <div class="flex items-center space-x-4 mb-2">
+      <i class="far fa-heart text-2xl">
+      </i>
+      <i class="far fa-comment text-2xl">
+      </i>
+      <i class="far fa-paper-plane text-2xl">
+      </i>
+      <i class="far fa-bookmark text-2xl ml-auto">
+      </i>
+     </div>
+     <p class="text-sm">
+      <span class="font-semibold">
+       republikindonesia
+      </span>
+      Selamat Tahun Baru dari Desa Wisata Pulau Pramuka, Kab. Kepulauan Seribu, DKI Jakarta...
+      <span class="text-gray-500">
+       selengkapnya
+      </span>
+     </p>
+     <p class="text-gray-500 text-sm">
+      Lihat semua 155 komentar
+     </p>
+     <p class="text-gray-500 text-sm">
+      Tambahkan komentar...
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow mb-6">
+     <div class="flex items-center mb-4">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        indozone.id
+       </span>
+       <span class="text-gray-500 text-sm">
+        6 jam
+       </span>
+      </div>
+     </div>
+     <img alt="A video thumbnail" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/6yeCxzarTc2QMaeoUcyIRZlNkFvD1cWXAs8HOndS2aZQefBQB.jpg" width="600"/>
+     <div class="flex items-center space-x-4 mb-2">
+      <i class="far fa-heart text-2xl">
+      </i>
+      <i class="far fa-comment text-2xl">
+      </i>
+      <i class="far fa-paper-plane text-2xl">
+      </i>
+      <i class="far fa-bookmark text-2xl ml-auto">
+      </i>
+     </div>
+     <p class="text-sm">
+      <span class="font-semibold">
+       indozone.id
+      </span>
+      <span class="text-gray-500">
+       selengkapnya
+      </span>
+     </p>
+     <p class="text-gray-500 text-sm">
+      Lihat semua 155 komentar
+     </p>
+     <p class="text-gray-500 text-sm">
+      Tambahkan komentar...
+     </p>
+    </div>
+   </div>
+   <!-- Right Sidebar -->
+   <div class="w-1/5 p-4">
+    <div class="flex items-center mb-4">
+     <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+     <div class="ml-4">
+      <span class="font-semibold">
+       restuardiyans
+      </span>
+      <span class="text-gray-500 text-sm">
+       Restu Ardiansyah
+      </span>
+     </div>
+     <a class="ml-auto text-blue-500" href="#">
+      Alihkan
+     </a>
+    </div>
+    <div class="mb-4">
+     <span class="font-semibold text-gray-500">
+      Disarankan untuk Anda
+     </span>
+     <a class="ml-auto text-blue-500" href="#">
+      Lihat Semua
+     </a>
+    </div>
+    <div class="space-y-4">
+     <div class="flex items-center">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        nvyaaa_aaa
+       </span>
+       <span class="text-gray-500 text-sm">
+        Diikuti oleh rararatuu_ + 5 lainnya
+       </span>
+      </div>
+      <a class="ml-auto text-blue-500" href="#">
+       Ikuti
+      </a>
+     </div>
+     <div class="flex items-center">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        shzimrza_
+       </span>
+       <span class="text-gray-500 text-sm">
+        Diikuti oleh suciav_ + 2 lainnya
+       </span>
+      </div>
+      <a class="ml-auto text-blue-500" href="#">
+       Ikuti
+      </a>
+     </div>
+     <div class="flex items-center">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        alintaaaaa
+       </span>
+       <span class="text-gray-500 text-sm">
+        Diikuti oleh maurina_1065 + 5 lainnya
+       </span>
+      </div>
+      <a class="ml-auto text-blue-500" href="#">
+       Ikuti
+      </a>
+     </div>
+     <div class="flex items-center">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        wulnnnn.n
+       </span>
+       <span class="text-gray-500 text-sm">
+        Diikuti oleh sarahisma._ + 2 lainnya
+       </span>
+      </div>
+      <a class="ml-auto text-blue-500" href="#">
+       Ikuti
+      </a>
+     </div>
+     <div class="flex items-center">
+      <img alt="Profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/mt6itE4AwvoefUFfM9sh1FLRlgfGclEmeDjKX8g0WDo3xfHAF.jpg" width="40"/>
+      <div class="ml-4">
+       <span class="font-semibold">
+        harisz_15
+       </span>
+       <span class="text-gray-500 text-sm">
+        Diikuti oleh haruhisaa___ + 5 lainnya
+       </span>
+      </div>
+      <a class="ml-auto text-blue-500" href="#">
+       Ikuti
+      </a>
+     </div>
+    </div>
+    <div class="mt-6 text-gray-500 text-sm">
+     <p>
+      Tentang • Bantuan • Pers • API • Pekerjaan • Privasi • Ketentuan • Lokasi • Bahasa • Verifikasi Meta
+     </p>
+     <p class="mt-2">
+      © 2024 INSTAGRAM FROM META
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
 </html>
-<script>
-     // Scroll to top functionality
-     function scrollToTop() {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-     }
-
-     // Dark mode toggle functionality
-     function toggleDarkMode() {
-          document.body.classList.toggle('dark-mode');
-     }
-
-     // Add event listener for dark mode toggle
-     document.addEventListener('DOMContentLoaded', function() {
-          const darkModeButton = document.createElement('button');
-          darkModeButton.id = 'dark-mode-toggle';
-          darkModeButton.textContent = 'Toggle Dark Mode';
-          darkModeButton.onclick = toggleDarkMode;
-          document.body.appendChild(darkModeButton);
-     });
-</script>
-
-<style>
-     /* Dark mode styles */
-     .dark-mode {
-          background-color: #121212;
-          color: #ffffff;
-     }
-
-     /* Style for the dark mode toggle button */
-     #dark-mode-toggle {
-          position: fixed;
-          bottom: 10px;
-          right: 10px;
-          padding: 10px 20px;
-          background-color: #007bff;
-          color: #ffffff;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-     }
-
-     #dark-mode-toggle:hover {
-          background-color: #0056b3;
-     }
-</style>
